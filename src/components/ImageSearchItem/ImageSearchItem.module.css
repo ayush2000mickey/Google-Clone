@@ -1,0 +1,36 @@
+.image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #535353;
+}
+
+.listItem a {
+  text-decoration: none;
+  align-items: center;
+}
+
+.listItem a:hover {
+  cursor: pointer;
+}
+
+.linkpara1 {
+  color: rgb(148, 145, 145);
+  align-items: center;
+}
+
+.linkpara2 {
+  color: rgb(0, 102, 255);
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.listItem a:hover .linkpara2 {
+  text-decoration: underline;
+}

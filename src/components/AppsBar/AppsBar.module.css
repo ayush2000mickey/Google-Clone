@@ -1,0 +1,49 @@
+.appsbar {
+  display: flex;
+  padding-left: 11rem;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.searchIcon {
+  font-size: 25px;
+  color: rgb(77, 74, 74);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.toggles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  text-decoration: none;
+  margin: 0 15px;
+  color: rgb(114, 113, 113);
+}
+
+.app:hover,
+.app:active,
+.app.active {
+  border-bottom: 2px solid rgb(10, 68, 228);
+}
+
+@media (max-width: 768px) {
+  .appsbar {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .app {
+    margin: 0;
+  }
+
+  .appsbar {
+    justify-content: center;
+    padding-left: 0;
+  }
+}

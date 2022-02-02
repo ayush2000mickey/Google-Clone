@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: rgb(56, 56, 58);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.madeby {
+  padding: 1rem;
+  text-align: center;
+}
+
+.links {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+}

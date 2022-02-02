@@ -1,0 +1,30 @@
+.skeletonlistItem {
+  margin-bottom: 1.7rem;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skeletonlinks {
+  width: 50%;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 70%;
+}
+
+@media (max-width: 999px) {
+  .skeletonlistItem {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .skeletonlistItem {
+    width: 90vw;
+  }
+}

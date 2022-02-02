@@ -1,0 +1,24 @@
+.skeletonlistItem {
+  margin-bottom: 1.7rem;
+  width: 50vw;
+}
+
+.skeletonlinks {
+  width: 50%;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 999px) {
+  .skeletonlistItem {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .skeletonlistItem {
+    width: 90vw;
+  }
+}

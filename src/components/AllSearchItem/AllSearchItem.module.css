@@ -1,0 +1,39 @@
+.listItem {
+  margin-bottom: 1.7rem;
+  width: 50vw;
+}
+.listItem a {
+  text-decoration: none;
+  align-items: center;
+}
+
+.linkpara1 {
+  color: rgb(148, 145, 145);
+  align-items: center;
+}
+
+.linkpara2 {
+  color: rgb(0, 102, 255);
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.listItem a:hover {
+  cursor: pointer;
+}
+
+.listItem a:hover .linkpara2 {
+  text-decoration: underline;
+}
+
+@media (max-width: 999px) {
+  .listItem {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    width: 90vw;
+  }
+}

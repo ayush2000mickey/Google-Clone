@@ -1,0 +1,21 @@
+.searchContent {
+  margin-left: 12rem;
+}
+
+.searchInfo {
+  margin: 1rem 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.results ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .searchContent {
+    margin: 0 5vw;
+  }
+}
