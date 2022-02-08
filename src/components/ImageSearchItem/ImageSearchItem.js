@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./ImageSearchItem.module.css";
 import { Modal, Button } from "antd";
-import "antd/dist/antd.css";
+import "antd/dist/antd.less";
 import { HiExternalLink } from "react-icons/hi";
 
 const ImageSearchItem = ({ item }) => {
