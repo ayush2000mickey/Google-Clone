@@ -42,7 +42,10 @@ const NavBar = () => {
                 type="search"
                 onChange={inputChangeHandler}
               />
-              <img className={classes.mic} src={micIcon} alt="micLogo" />
+
+              <Link to="/voice_search">
+                <img className={classes.mic} src={micIcon} alt="micLogo" />
+              </Link>
               <HiOutlineSearch
                 onClick={formSubmitHandler}
                 className={classes.searchIcon}

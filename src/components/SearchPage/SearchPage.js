@@ -25,8 +25,6 @@ const SearchPage = () => {
     fetchData();
   }, [params.id]);
 
-  console.log(items);
-
   return (
     <div>
       <NavBar />
@@ -39,8 +37,8 @@ const SearchPage = () => {
         <div className={classes.results}>
           <ul>
             {items.length > 0
-              ? items.map((item) => (
-                  <AllSearchItem item={item} key={item?.cacheId} />
+              ? items.map((item, index) => (
+                  <AllSearchItem item={item} key={index} />
                 ))
               : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((e, index) => (
                   <TextSkeleton key={index} />

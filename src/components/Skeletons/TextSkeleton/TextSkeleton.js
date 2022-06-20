@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./TextSkeleton.module.css";
-import cx from "classnames";
+// import cx from "classnames";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
@@ -10,7 +10,7 @@ const TextSkeleton = () => {
       <div className={classes.skeletonlinks}>
         <Skeleton />
       </div>
-      <div className={cx(classes.skeletonlinks, classes.title)}>
+      <div className={`${classes.skeletonlinks} ${classes.title}`}>
         <Skeleton />
       </div>
       <div>

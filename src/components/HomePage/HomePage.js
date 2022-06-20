@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./HomePage.module.css";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import micIcon from "../../Images/mic icon.png";
 import logo from "../../Images/google Main page.png";
@@ -25,7 +25,9 @@ const HomePage = () => {
           <div className={classes.inputContainer}>
             <HiOutlineSearch className={classes.searchIcon} />
             <input type="search" />
-            <img className={classes.mic} src={micIcon} alt="micLogo" />
+            <Link to="/voice_search">
+              <img className={classes.mic} src={micIcon} alt="micLogo" />
+            </Link>
           </div>
           <div className={classes.actions_buttons}>
             <div className={classes.button1_container}>

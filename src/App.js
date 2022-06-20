@@ -5,6 +5,8 @@ import SearchPage from "./components/SearchPage/SearchPage";
 import ImagesPage from "./components/ImagesPage/ImagesPage";
 import NewsPage from "./components/NewsPage/NewsPage";
 import VideosPage from "./components/VideosPage/VideosPage";
+import VoiceSearch from "./components/VoiceSearch/VoiceSearch";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const App = () => {
   return (
@@ -26,7 +28,12 @@ const App = () => {
           <Route exact path="/:id/videos">
             <VideosPage />
           </Route>
-          {/* <Route path="*"><ErrorPage/></Route> */}
+          <Route exact path="/voice_search">
+            <VoiceSearch />
+          </Route>
+          <Route path="*">
+            <ErrorPage />
+          </Route>
         </Switch>
       </Router>
     </div>
