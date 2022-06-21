@@ -25,9 +25,6 @@ const VideosPage = () => {
     fetchData();
   }, [params.id]);
 
-  console.log(items);
-  console.log(searchInfo);
-
   return (
     <div>
       <NavBar />

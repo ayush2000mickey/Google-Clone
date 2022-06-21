@@ -26,8 +26,6 @@ const NewsPage = () => {
     fetchData();
   }, [params.id]);
 
-  console.log(articles);
-
   return (
     <div>
       <NavBar />

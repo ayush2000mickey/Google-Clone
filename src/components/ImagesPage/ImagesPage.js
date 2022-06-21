@@ -24,8 +24,6 @@ const ImagesPage = () => {
     fetchData();
   }, [params.id]);
 
-  // console.log(items);
-
   return (
     <div>
       <NavBar />

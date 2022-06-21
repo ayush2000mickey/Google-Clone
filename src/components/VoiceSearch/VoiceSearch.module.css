@@ -9,7 +9,7 @@
 }
 
 .gifContainer img {
-  margin: 1rem;
+  margin: 1rem auto;
   border-radius: 50rem;
   width: 30rem;
   background: none;
@@ -28,4 +28,19 @@
   font-weight: bolder;
   font-size: 1.8rem;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .gifContainer img {
+    width: 15rem;
+  }
+
+  .note {
+    max-width: 80vw;
+    font-size: 1rem;
+  }
+
+  .gifContainer button {
+    font-size: 1rem;
+  }
 }
